@@ -60,7 +60,7 @@ public final class SATEncoding {
         return 0;
     }
 
-    private static int unpair(int a, int b) {
-        return 0;
+    private static int[] unpair(int c) {
+        return null;
     }
 }
