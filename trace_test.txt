@@ -1,0 +1,95 @@
+
+Parsing domain file: successfully done
+Parsing problem file: successfully done
+
+Grounding: successfully done (2 ops, 2 facts)
+Encoding : successfully done (21 clauses, 2 steps)
+[(1, 1)]
+1 >> (free)
+
+[(-2, 1)]
+2 >> (busy)
+
+[(-3, 1) + (-4, 1)]
+3 >> take a
+4 >> take b
+
+[(-3, 1) + (1, 1)]
+3 >> take a
+1 >> (free)
+
+[(-4, 1) + (1, 1)]
+4 >> take b
+1 >> (free)
+
+[(-3, 1) + (-1, 2)]
+3 >> take a
+1 >> (free)
+
+[(-3, 1) + (2, 2)]
+3 >> take a
+2 >> (busy)
+
+[(-4, 1) + (-1, 2)]
+4 >> take b
+1 >> (free)
+
+[(-4, 1) + (2, 2)]
+4 >> take b
+2 >> (busy)
+
+[(2, 1) + (-2, 2) + (3, 1) + (4, 1)]
+2 >> (busy)
+3 >> take a
+4 >> take b
+
+[(-1, 1) + (1, 2) + (3, 1) + (4, 1)]
+1 >> (free)
+3 >> take a
+4 >> take b
+
+[(-3, 2) + (-4, 2)]
+3 >> take a
+4 >> take b
+
+[(-3, 2) + (1, 2)]
+3 >> take a
+1 >> (free)
+
+[(-4, 2) + (1, 2)]
+4 >> take b
+1 >> (free)
+
+[(-3, 2) + (-1, 3)]
+3 >> take a
+1 >> (free)
+
+[(-3, 2) + (2, 3)]
+3 >> take a
+2 >> (busy)
+
+[(-4, 2) + (-1, 3)]
+4 >> take b
+1 >> (free)
+
+[(-4, 2) + (2, 3)]
+4 >> take b
+2 >> (busy)
+
+[(2, 2) + (-2, 3) + (3, 2) + (4, 2)]
+2 >> (busy)
+3 >> take a
+4 >> take b
+
+[(-1, 2) + (1, 3) + (3, 2) + (4, 2)]
+1 >> (free)
+3 >> take a
+4 >> take b
+
+[(2, 2)]
+2 >> (busy)
+
+No solution in 2 steps!
+Encoding : successfully done (30 clauses, 3 steps)
+0: (take a) [1]
+
